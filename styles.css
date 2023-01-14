@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: 'Poppins', sans-serif;
+	}
+	*, *:before, *:after {
+  box-sizing: border-box;
+}
+	
+a{
+	text-decoration:none;
+	color:black;
+}
+
+.wrapper {
+    max-width: 1140px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top:26px;
+	margin-bottom:26px;
+	height:48px;
+	
+}
+
+.header-title{
+	display:block;
+}
+.header-title-Unwind,
+.header-title-Cabins{
+	font-weight: 600;
+	height: 24px;
+	font-size: 24px;
+	color:#166527;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	
+}
+.header-title-Cabins{
+	color:#1A3724;
+}
+.links{
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+	line-height: 24px;
+	color: black;
+		}
+.header-links {
+	margin-right:32px;
+}		
+.preview{
+	display:flex;
+	margin: 0 auto;
+	height:500px;
+	width: 1560px;
+	position: relative;	
+
+}
+.preview-left{
+	width: 40%;
+	background: linear-gradient(to right, #2d2d34, #2c2b30);
+	
+}
+.preview-text {
+position: absolute;
+padding-left: 214px;
+padding-top: 96px;
+
+}
+.preview-title{
+	font-family: 'Source Serif Pro', serif;
+	font-size: 44px;
+	color: #FFFFFF;
+	width: 475px;
+	line-height:56px;
+	
+	
+}		
+.preview-desc {
+	margin-top: 10px;
+	width: 544px;
+	height: 84px;
+	font-size: 16px;
+	line-height: 28px;
+	color: white;
+}
+.preview-image{
+	background-image: url("images/preview.png");
+	height: 100%;
+    width: 60%;
+}
+.preview-span{
+	color:#F5B963;
+}
+form{
+	height: 120px;
+	margin-top:-80px;
+	position: absolute;
+	background:white;
+	width:1140px;
+	border-radius:4px;
+	display:flex;
+	justify-content:space-between;
+	padding:12px;
+	align-items: center;
+	background: #FFFFFF;
+	box-shadow: 0px 1px 2px rgba(30, 30, 32, 0.2), 0px 12px 24px rgba(39, 45, 77, 0.2);
+	
+}
+
+.check-in-choice {
+	width:296px;
+	height:54px;
+	border-radius:4px;
+	color: #565656;
+	font-size: 16px;
+	line-height: 28px;
+	padding-left:40px;
+	background: #EAEAEA;
+
+
+}
+.check-in-date,
+.travellers {
+	width: 140px;
+	height: 54px;
+	border-radius:4px;
+	padding:8px, 16px, 8px, 16px;
+	color:#565656;
+	font-size: 16px;
+	line-height: 28px;
+	text-align:center;
+	background: #EAEAEA;
+	}
+.check-in-button{
+	width:236px;
+	height:54px;
+	border-radius:4px;
+	padding:13px, 40px, 13px, 40px;
+	font-size: 16px;
+    line-height: 28px;
+	align-items: center;
+	background:#233D2C;
+    color: #FFFFFF;
+	}
+.main-choose-house{
+	padding-top: 180px;
+	}
+.main-title{	
+	font-family: 'Source Serif Pro';
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 26px;
+	color: #22223C;
+}
+.main-desc{
+	font-size: 16px;
+	line-height: 28px;
+	color: #47475F;
+	margin-top:33px;
+	display: inline-block;
+}
+.main-all-cabins{
+	text-decoration-line: underline;
+	font-size: 16px;
+	line-height: 24px;
+	color: #4A4A4A;
+	margin-left: 300px;
+}
+.main-promotion{
+	display:flex;
+	justify-content:space-between;
+	margin-top:40px;
+}
+.main-card{
+	background:#2B3030;
+	height: 489px;
+	box-sizing:border-box;
+	border-radius: 4px;
+}
+.main-alltext{
+	padding:10px 18px 18px 18px;
+}
+
+.main-card-1,
+.main-card-2{
+	margin-right:8px;
+}
+.main-img-cabin{
+	width:100%;
+}
+.main-card-location{
+	margin-top: 3px;
+	font-size: 12px;
+	line-height: 26px;
+	text-transform: uppercase;
+	color: #D7FFF1;
+	
+	
+}
+.main-card-title{
+	font-size: 20px;
+	line-height: 26px;
+	color: #FFFFFF;
+	display:inline-block;
+	margin-top:3px;
+	font-weight: 700;
+}
+.main-card-price{
+	display:inline-block;
+	margin-left:37px;
+	color: #FFFFFF;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 600;
+}
+.main-card-desc{
+	margin-top:20px;
+	color:#FFFFFF;
+	
+}
+
+
